@@ -1,0 +1,45 @@
+.container {
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.note {
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.note p {
+  word-wrap: break-word;
+}
+
+.note button {
+  background-color: #ff5722;
+}
+
+.note textarea {
+  margin-bottom: 10px;
+}
+
+.note button:last-child {
+  background-color: #03a9f4;
+}
