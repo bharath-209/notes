@@ -28,7 +28,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>Notes App</h1>
+      <h1>Notes</h1>
       <AddNote handleAddNote={addNote} />
       <NotesList notes={notes} handleDeleteNote={deleteNote} />
     </div>
